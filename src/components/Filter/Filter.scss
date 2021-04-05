@@ -1,0 +1,26 @@
+@import 'styles/shared.scss';
+
+.Filter {
+  margin-top: 60px;
+}
+
+.Filter__contacts-title {
+  font-size: 44px;
+  text-align: center;
+}
+
+.Filter__title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.Filter__input {
+  width: 300px;
+  height: 50px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-size: 26px;
+}

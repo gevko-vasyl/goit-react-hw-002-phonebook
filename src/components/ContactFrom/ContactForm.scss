@@ -1,0 +1,33 @@
+@import 'styles/shared.scss';
+.Form {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border: 1px solid $black;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Form__button {
+  @extend %button;
+
+  width: 150px;
+  margin-left: auto;
+  border-radius: 4px;
+  padding: 12px 24px;
+  background-color: $indigo;
+  color: $white;
+  font-weight: 500;
+
+  &:hover,
+  &:focus {
+    background-color: $indigo-accent;
+  }
+
+  &:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
